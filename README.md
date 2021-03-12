@@ -103,8 +103,8 @@ Next, we create a function called **createCollectible()** which takes in a strin
 Inside the createCollectible() function, we set the id for the new NFT to be equal to the tokenCounter. We also use the **_safeMint()** function our contract inherits from OpenZeppelin's contract to mint an NFT: 
 
 ```   
-	 uint256 newItemId = tokenCounter;  
-	_safeMint(msg.sender, newItemId); 
+ uint256 newItemId = tokenCounter;  
+_safeMint(msg.sender, newItemId); 
 ```
 
 **_safeMint()** will create an NFT owned by the user which called the contract (msg.sender), with an id of newItemId. 
@@ -112,10 +112,10 @@ Inside the createCollectible() function, we set the id for the new NFT to be equ
 After minting the NFT, we set the NFT to have the properties contained in tokenURI (usually a link and a title for the NFT). We also increase the NFT count, and return the id.
 
 ```
-    _setTokenURI(newItemId, tokenURI); 
-    tokenCounter = tokenCounter + 1;
+_setTokenURI(newItemId, tokenURI); 
+tokenCounter = tokenCounter + 1;
 
-    return newItemId; 
+return newItemId; 
 ```
 
 When we use our smart contract to mint NFTs in part two, we will call the createCollectible() function with a tokenURI in order to mint NFTs.
