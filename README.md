@@ -136,7 +136,7 @@ Next, open the .env file in your text editor and add the following variable:
 
 `REST_URL=https://celo-alfajores--rpc.datahub.figment.io/apikey/<YOUR API KEY>/`
 
-Where YOUR API KEY is your DataHub API key. 
+Where YOUR API KEY is your DataHub API key. **Note:** there needs to be a trailing / at the end for this to work!
 
 If this is unfamiliar to you, please read: [Connect to a Celo node with DataHub](https://learn.figment.io/network-documentation/celo/tutorial/1.connect).
 
