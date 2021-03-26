@@ -132,7 +132,9 @@ Create a .env file in the **root directory** of the `myNFT` folder. To do so, na
 
 `touch .env`
 
-We're going to use [Datahub](https://figment.io/datahub/) to connect to the Celo test network. For this, open the .env file in your text editor and add the following variable:
+We're going to use [Datahub](https://figment.io/datahub/) to connect to the Celo test network. If you don't have an account, sign up on the  [Datahub](https://figment.io/datahub/)  website and resume this tutorial. 
+
+Next, open the .env file in your text editor and add the following variable:
 
 `REST_URL=https://celo-alfajores--rpc.datahub.figment.io/apikey/<YOUR API KEY>/`
 
