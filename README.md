@@ -18,9 +18,13 @@ It is optional (but recommended) to have completed the previous tutorials in the
 
 
 [1. Connect to a Celo node with DataHub](https://learn.figment.io/network-documentation/celo/tutorial/1.connect)
+
 [2. Create your first Celo account](https://learn.figment.io/network-documentation/celo/tutorial/2.account) 
+
 [3. Query the Celo network](https://learn.figment.io/network-documentation/celo/tutorial/3.query)
+
 [4. Submit your first transactions](https://learn.figment.io/network-documentation/celo/tutorial/4.transactions)
+
 [5. Write and deploy your first Celo smart contract](https://learn.figment.io/network-documentation/celo/tutorial/5.smart-contract)
 
 If you have not completed the above tutorials, you may have to backtrack for certain parts of this tutorial. 
